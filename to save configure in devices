@@ -1,0 +1,5 @@
+********** to save configure in router, Switch always to save using this command ********
+
+copy run start
+wr
+wr mem
