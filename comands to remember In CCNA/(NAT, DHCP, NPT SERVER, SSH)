@@ -35,6 +35,8 @@ clock set 00:00:00 January 1 2019
 conf t
  ntp server 10.1.3.1
  end
+show ntp status
+
 
 **********setting DHCP pool**********
 
@@ -48,6 +50,8 @@ conf t
   network 10.1.3.0 255.255.255.0
   end
 
+verify 
+show ip interface brief
 ******* configure SSH connectivity**********
 
 conf t
@@ -58,7 +62,6 @@ conf t
 
 verify
 show run | s line
-
 
 **** setting up a access for user netadmin and password using RSA******
 
