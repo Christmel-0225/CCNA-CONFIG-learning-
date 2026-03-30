@@ -1,5 +1,6 @@
-********** to save configure in router, Switch always to save using this command ********
+********** to save configure in devices (Router, Switchs, firewall)  always save using this command ********
 
+######NOTE confirm first before SAVE...
 copy run start
 wr
 wr mem
